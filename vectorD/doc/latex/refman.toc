@@ -1,0 +1,34 @@
+\babel@toc {spanish}{}
+\contentsline {chapter}{\numberline {1}Rep del T\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}DA vectorD}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Invariante de la representaci\IeC {\'o}n}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Funci\IeC {\'o}n de abstracci\IeC {\'o}n}{1}{section.1.2}
+\contentsline {chapter}{\numberline {2}\IeC {\'I}ndice de clases}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Lista de clases}{3}{section.2.1}
+\contentsline {chapter}{\numberline {3}Indice de archivos}{5}{chapter.3}
+\contentsline {section}{\numberline {3.1}Lista de archivos}{5}{section.3.1}
+\contentsline {chapter}{\numberline {4}Documentaci\IeC {\'o}n de las clases}{7}{chapter.4}
+\contentsline {section}{\numberline {4.1}Referencia de la Clase vectorD$<$ T $>$\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}:\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}:iterator}{7}{section.4.1}
+\contentsline {section}{\numberline {4.2}Referencia de la Clase vectorD$<$ T $>$\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}:\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}:stored\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}iterator}{7}{section.4.2}
+\contentsline {section}{\numberline {4.3}Referencia de la plantilla de la Clase vectorD$<$ T $>$}{8}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Descripci\IeC {\'o}n detallada}{9}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Documentaci\IeC {\'o}n del constructor y destructor}{10}{subsection.4.3.2}
+\contentsline {subsubsection}{\numberline {4.3.2.1}vector\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}D()\hspace {0.1cm}{\relax \fontsize {8}{9.5}\selectfont \abovedisplayskip 6\p@ plus2\p@ minus4\p@ \abovedisplayshortskip \z@ plus\p@ \belowdisplayshortskip 3\p@ plus\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 3\p@ plus\p@ minus\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip \ttfamily [1/2]}}{10}{subsubsection.4.3.2.1}
+\contentsline {subsubsection}{\numberline {4.3.2.2}vector\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}D()\hspace {0.1cm}{\relax \fontsize {8}{9.5}\selectfont \abovedisplayskip 6\p@ plus2\p@ minus4\p@ \abovedisplayshortskip \z@ plus\p@ \belowdisplayshortskip 3\p@ plus\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 3\p@ plus\p@ minus\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip \ttfamily [2/2]}}{11}{subsubsection.4.3.2.2}
+\contentsline {subsection}{\numberline {4.3.3}Documentaci\IeC {\'o}n de las funciones miembro}{11}{subsection.4.3.3}
+\contentsline {subsubsection}{\numberline {4.3.3.1}begin()}{11}{subsubsection.4.3.3.1}
+\contentsline {subsubsection}{\numberline {4.3.3.2}default\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}value()}{11}{subsubsection.4.3.3.2}
+\contentsline {subsubsection}{\numberline {4.3.3.3}empty()}{12}{subsubsection.4.3.3.3}
+\contentsline {subsubsection}{\numberline {4.3.3.4}end()}{12}{subsubsection.4.3.3.4}
+\contentsline {subsubsection}{\numberline {4.3.3.5}operator"!=()}{12}{subsubsection.4.3.3.5}
+\contentsline {subsubsection}{\numberline {4.3.3.6}operator=()}{12}{subsubsection.4.3.3.6}
+\contentsline {subsubsection}{\numberline {4.3.3.7}operator==()}{13}{subsubsection.4.3.3.7}
+\contentsline {subsubsection}{\numberline {4.3.3.8}operator[]()}{13}{subsubsection.4.3.3.8}
+\contentsline {subsubsection}{\numberline {4.3.3.9}pop\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}back()}{13}{subsubsection.4.3.3.9}
+\contentsline {subsubsection}{\numberline {4.3.3.10}push\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}back()}{14}{subsubsection.4.3.3.10}
+\contentsline {subsubsection}{\numberline {4.3.3.11}resize()}{14}{subsubsection.4.3.3.11}
+\contentsline {subsubsection}{\numberline {4.3.3.12}sbegin()}{14}{subsubsection.4.3.3.12}
+\contentsline {subsubsection}{\numberline {4.3.3.13}send()}{15}{subsubsection.4.3.3.13}
+\contentsline {subsubsection}{\numberline {4.3.3.14}set()}{15}{subsubsection.4.3.3.14}
+\contentsline {subsubsection}{\numberline {4.3.3.15}size()}{15}{subsubsection.4.3.3.15}
+\contentsline {chapter}{\numberline {5}Documentaci\IeC {\'o}n de archivos}{17}{chapter.5}
+\contentsline {section}{\numberline {5.1}Referencia del Archivo include/vectorD.h}{17}{section.5.1}

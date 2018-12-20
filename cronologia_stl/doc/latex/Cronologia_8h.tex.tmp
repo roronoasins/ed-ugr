@@ -1,0 +1,28 @@
+\hypertarget{Cronologia_8h}{}\section{Referencia del Archivo include/\+Cronologia.h}
+\label{Cronologia_8h}\index{include/\+Cronologia.\+h@{include/\+Cronologia.\+h}}
+
+
+Fichero cabecera del T\+DA \hyperlink{classCronologia}{Cronologia}.  
+
+
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$map$>$}\newline
+{\ttfamily \#include \char`\"{}Fecha\+Historica.\+h\char`\"{}}\newline
+Dependencia gráfica adjunta para Cronologia.\+h\+:
+% FIG 0
+\subsection*{Clases}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classCronologia}{Cronologia}
+\begin{DoxyCompactList}\small\item\em T.\+D.\+A. \hyperlink{classCronologia}{Cronologia}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{typedefs}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{Cronologia_8h_a11a7deeed18a58ec0870f83f4d0c6cc8}\label{Cronologia_8h_a11a7deeed18a58ec0870f83f4d0c6cc8}} 
+typedef map$<$ int, \hyperlink{classFechaHistorica}{Fecha\+Historica} $>$ {\bfseries Mapa\+FH}
+\end{DoxyCompactItemize}
+
+
+\subsection{Descripción detallada}
+Fichero cabecera del T\+DA \hyperlink{classCronologia}{Cronologia}. 
+

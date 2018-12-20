@@ -1,0 +1,423 @@
+\hypertarget{classCronologia}{}\section{Referencia de la Clase Cronologia}
+\label{classCronologia}\index{Cronologia@{Cronologia}}
+
+
+T.\+D.\+A. \hyperlink{classCronologia}{Cronologia}.  
+
+
+
+
+{\ttfamily \#include $<$Cronologia.\+h$>$}
+
+\subsection*{Tipos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classCronologia_aa4afcb1f045424a8350e655329522813}\label{classCronologia_aa4afcb1f045424a8350e655329522813}} 
+typedef map$<$ int, \hyperlink{classFechaHistorica}{Fecha\+Historica} $>$\+::iterator {\bfseries iterator}
+\item 
+\mbox{\Hypertarget{classCronologia_a1b8bbb2fab52f9f57d59dffb537541ca}\label{classCronologia_a1b8bbb2fab52f9f57d59dffb537541ca}} 
+typedef map$<$ int, \hyperlink{classFechaHistorica}{Fecha\+Historica} $>$\+::const\+\_\+iterator {\bfseries const\+\_\+iterator}
+\end{DoxyCompactItemize}
+\subsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classCronologia_ac0026b1919148f6cd6cf4ca4c357771e}\label{classCronologia_ac0026b1919148f6cd6cf4ca4c357771e}} 
+\hyperlink{classCronologia_ac0026b1919148f6cd6cf4ca4c357771e}{Cronologia} ()
+\begin{DoxyCompactList}\small\item\em Constructor por defecto de la clase. Crea el conjunto de fechas histÃ³ricas formado por la fecha histÃ³rica por defecto. \end{DoxyCompactList}\item 
+\hyperlink{classCronologia_ab338ac4b9270cfc162c7220ee99578c9}{Cronologia} (Mapa\+FH crono)
+\begin{DoxyCompactList}\small\item\em Constructor de la clase. \end{DoxyCompactList}\item 
+\hyperlink{classCronologia_a0d102db0ec0c1d8a9ecb31cca7978ffe}{Cronologia} (const \hyperlink{classCronologia}{Cronologia} \&crono)
+\begin{DoxyCompactList}\small\item\em Constructor de copias de la clase. \end{DoxyCompactList}\item 
+int \hyperlink{classCronologia_a5412d39f8e20dd2a178eaed3a2c660fc}{anio} (string acontecimiento)
+\begin{DoxyCompactList}\small\item\em anio \end{DoxyCompactList}\item 
+set$<$ string $>$ \hyperlink{classCronologia_a58cfb3b166f4af26c8a66ea63d163a22}{acontecimientos} (int \hyperlink{classCronologia_a5412d39f8e20dd2a178eaed3a2c660fc}{anio})
+\begin{DoxyCompactList}\small\item\em Acontecimientos. \end{DoxyCompactList}\item 
+\hyperlink{classFechaHistorica}{Fecha\+Historica} \hyperlink{classCronologia_a45780b1afa95d9c0ca0c4cdd72180114}{get\+Eventos} (int \hyperlink{classCronologia_a5412d39f8e20dd2a178eaed3a2c660fc}{anio})
+\begin{DoxyCompactList}\small\item\em Eventos del tipo \hyperlink{classFechaHistorica}{Fecha\+Historica}. \end{DoxyCompactList}\item 
+void \hyperlink{classCronologia_ab543199019ac2916b86d510d429f5e4a}{set\+Crono} (const \hyperlink{classCronologia}{Cronologia} c)
+\begin{DoxyCompactList}\small\item\em inserta una cronologia \end{DoxyCompactList}\item 
+Mapa\+FH \hyperlink{classCronologia_a5ca66a485a589fc136466c6550514d51}{get\+Crono} () const
+\begin{DoxyCompactList}\small\item\em get\+Crono \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classCronologia_ad93a41a97cc1c9a15aad44d7ed7ca2d7}\label{classCronologia_ad93a41a97cc1c9a15aad44d7ed7ca2d7}} 
+string {\bfseries acontecimientoconcreto} (int \hyperlink{classCronologia_a5412d39f8e20dd2a178eaed3a2c660fc}{anio}, int contador)
+\item 
+\mbox{\Hypertarget{classCronologia_a7e995892e46a00b54d70a905e2bdbc53}\label{classCronologia_a7e995892e46a00b54d70a905e2bdbc53}} 
+\hyperlink{classCronologia_a7e995892e46a00b54d70a905e2bdbc53}{$\sim$\+Cronologia} ()
+\begin{DoxyCompactList}\small\item\em desctructor \end{DoxyCompactList}\item 
+void \hyperlink{classCronologia_ab6b38ffe6f9e9f221293f365d0208294}{Aniade\+Fecha} (const \hyperlink{classFechaHistorica}{Fecha\+Historica} \&f)
+\begin{DoxyCompactList}\small\item\em añade una fecha \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classCronologia_a8260bb6d3a895d32e2f3342c9ae48240}\label{classCronologia_a8260bb6d3a895d32e2f3342c9ae48240}} 
+\hyperlink{classCronologia}{Cronologia} \& {\bfseries operator=} (const \hyperlink{classCronologia}{Cronologia} \&otro)
+\item 
+\hyperlink{classCronologia}{Cronologia} \hyperlink{classCronologia_a5113eae269dbf9bdbb3637142b02d267}{operator+} (const Mapa\+FH \&otro)
+\begin{DoxyCompactList}\small\item\em Concatena un mapa. \end{DoxyCompactList}\item 
+\hyperlink{classCronologia}{Cronologia} \hyperlink{classCronologia_ab17768986b01369038b5b3852ad21fef}{operator+} (const \hyperlink{classFechaHistorica}{Fecha\+Historica} \&otro)
+\begin{DoxyCompactList}\small\item\em Concatena el objeto implicito con un objeto del tipo \hyperlink{classFechaHistorica}{Fecha\+Historica}. \end{DoxyCompactList}\item 
+\hyperlink{classCronologia}{Cronologia} \& \hyperlink{classCronologia_a7e6b4c1621dfba75b113819a6b32e2ef}{operator+=} (const \hyperlink{classFechaHistorica}{Fecha\+Historica} \&otro)
+\begin{DoxyCompactList}\small\item\em Sobrecarga del operador +=. \end{DoxyCompactList}\item 
+\hyperlink{classCronologia}{Cronologia} \& \hyperlink{classCronologia_a5eb738cdce8fd5b7239a384476ddef7f}{operator+=} (const \hyperlink{classCronologia}{Cronologia} \&otro)
+\begin{DoxyCompactList}\small\item\em Sobrecarga del operador +=. \end{DoxyCompactList}\item 
+\hyperlink{classCronologia}{Cronologia} \hyperlink{classCronologia_acd418bfc323c6fbac776419bddac74e8}{intervalo} (int inicio, int fin)
+\begin{DoxyCompactList}\small\item\em obtencion de un conjunto de \hyperlink{classFechaHistorica}{Fecha\+Historica} dentro de un intervalo \end{DoxyCompactList}\item 
+void \hyperlink{classCronologia_a5dd879f6d755f01f3af65334bcabec0c}{Union} (const \hyperlink{classCronologia}{Cronologia} \&c1, const \hyperlink{classCronologia}{Cronologia} \&c2)
+\begin{DoxyCompactList}\small\item\em obtencion de la union de dos Cronologias \end{DoxyCompactList}\item 
+Mapa\+FH \hyperlink{classCronologia_a43b561e8e1e896372f797247058a4a0d}{Palabra\+Clave} (string buscar)
+\begin{DoxyCompactList}\small\item\em obtencion de un conjunto de \hyperlink{classFechaHistorica}{Fecha\+Historica} con apariciones de la palabra clave \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classCronologia_abbfd6e21bbb97bc71ad0d8bdfbc158b9}\label{classCronologia_abbfd6e21bbb97bc71ad0d8bdfbc158b9}} 
+Cronologia\+::iterator \hyperlink{classCronologia_abbfd6e21bbb97bc71ad0d8bdfbc158b9}{begin} ()
+\begin{DoxyCompactList}\small\item\em Declaración de los begin y end de ambos iterators. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classCronologia_aeef830f59857521f98b017b3ac29b098}\label{classCronologia_aeef830f59857521f98b017b3ac29b098}} 
+Cronologia\+::iterator {\bfseries end} ()
+\item 
+\mbox{\Hypertarget{classCronologia_aa59635377f076fc2576e5ba164d1d350}\label{classCronologia_aa59635377f076fc2576e5ba164d1d350}} 
+Cronologia\+::const\+\_\+iterator {\bfseries cbegin} () const
+\item 
+\mbox{\Hypertarget{classCronologia_ab1bc484b6cdc15f923cba94ef3e993ce}\label{classCronologia_ab1bc484b6cdc15f923cba94ef3e993ce}} 
+Cronologia\+::const\+\_\+iterator {\bfseries cend} () const
+\end{DoxyCompactItemize}
+\subsection*{Amigas}
+\begin{DoxyCompactItemize}
+\item 
+ostream \& \hyperlink{classCronologia_a5a590e2ec95cc4489c3de5b03e2cac4c}{operator$<$$<$} (ostream \&os, const \hyperlink{classCronologia}{Cronologia} \&c)
+\begin{DoxyCompactList}\small\item\em Salida de una \hyperlink{classCronologia}{Cronologia} a ostream. \end{DoxyCompactList}\item 
+istream \& \hyperlink{classCronologia_a6fa0f1131309b1cee355b9d8297ea33d}{operator$>$$>$} (istream \&is, \hyperlink{classCronologia}{Cronologia} \&c)
+\begin{DoxyCompactList}\small\item\em Entrada de una \hyperlink{classFechaHistorica}{Fecha\+Historica} desde istream. \end{DoxyCompactList}\item 
+void \hyperlink{classCronologia_a8ada14624be65bded6fc9c445681d70e}{recuento\+Eventos} (const \hyperlink{classCronologia}{Cronologia} \&c)
+\begin{DoxyCompactList}\small\item\em Recuento estadistico de una cronologia. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Descripción detallada}
+T.\+D.\+A. \hyperlink{classCronologia}{Cronologia}. 
+
+Una instancia {\itshape c} del tipo de datos abstracto {\ttfamily \hyperlink{classCronologia}{Cronologia}} es un objeto, el cual es un conjunto de fechas histÃ³ricas ordenadas por aÃ±o. Lo representamos\+:
+
+anio\+::acontecimientosautor anio\+::acontecimientosautor
+
+Un ejemplo de su uso\+: 
+\begin{DoxyCodeInclude}
+\end{DoxyCodeInclude}
+
+
+\begin{DoxyAuthor}{Autor}
+Luis González Romero 
+
+Pablo Pérez Méndez 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Fecha}
+Diciembre 2017 
+\end{DoxyDate}
+
+
+\subsection{Documentación del constructor y destructor}
+\mbox{\Hypertarget{classCronologia_ab338ac4b9270cfc162c7220ee99578c9}\label{classCronologia_ab338ac4b9270cfc162c7220ee99578c9}} 
+\index{Cronologia@{Cronologia}!Cronologia@{Cronologia}}
+\index{Cronologia@{Cronologia}!Cronologia@{Cronologia}}
+\subsubsection{\texorpdfstring{Cronologia()}{Cronologia()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Cronologia\+::\+Cronologia (\begin{DoxyParamCaption}\item[{Mapa\+FH}]{crono }\end{DoxyParamCaption})}
+
+
+
+Constructor de la clase. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em crono} & mapa de la cronologia a crear \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Crea la cronologia 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classCronologia_a0d102db0ec0c1d8a9ecb31cca7978ffe}\label{classCronologia_a0d102db0ec0c1d8a9ecb31cca7978ffe}} 
+\index{Cronologia@{Cronologia}!Cronologia@{Cronologia}}
+\index{Cronologia@{Cronologia}!Cronologia@{Cronologia}}
+\subsubsection{\texorpdfstring{Cronologia()}{Cronologia()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Cronologia\+::\+Cronologia (\begin{DoxyParamCaption}\item[{const \hyperlink{classCronologia}{Cronologia} \&}]{crono }\end{DoxyParamCaption})}
+
+
+
+Constructor de copias de la clase. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em crono} & conjunto de fechas historicas a construir \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Documentación de las funciones miembro}
+\mbox{\Hypertarget{classCronologia_a58cfb3b166f4af26c8a66ea63d163a22}\label{classCronologia_a58cfb3b166f4af26c8a66ea63d163a22}} 
+\index{Cronologia@{Cronologia}!acontecimientos@{acontecimientos}}
+\index{acontecimientos@{acontecimientos}!Cronologia@{Cronologia}}
+\subsubsection{\texorpdfstring{acontecimientos()}{acontecimientos()}}
+{\footnotesize\ttfamily set$<$string$>$ Cronologia\+::acontecimientos (\begin{DoxyParamCaption}\item[{int}]{anio }\end{DoxyParamCaption})}
+
+
+
+Acontecimientos. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em anio} & anio de los acontecimientos solicitados \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Devuelve los acontecimientos dados en un aÃ±o 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classCronologia_ab6b38ffe6f9e9f221293f365d0208294}\label{classCronologia_ab6b38ffe6f9e9f221293f365d0208294}} 
+\index{Cronologia@{Cronologia}!Aniade\+Fecha@{Aniade\+Fecha}}
+\index{Aniade\+Fecha@{Aniade\+Fecha}!Cronologia@{Cronologia}}
+\subsubsection{\texorpdfstring{Aniade\+Fecha()}{AniadeFecha()}}
+{\footnotesize\ttfamily void Cronologia\+::\+Aniade\+Fecha (\begin{DoxyParamCaption}\item[{const \hyperlink{classFechaHistorica}{Fecha\+Historica} \&}]{f }\end{DoxyParamCaption})}
+
+
+
+añade una fecha 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em f} & \hyperlink{classFechaHistorica}{Fecha\+Historica} a añadir \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classCronologia_a5412d39f8e20dd2a178eaed3a2c660fc}\label{classCronologia_a5412d39f8e20dd2a178eaed3a2c660fc}} 
+\index{Cronologia@{Cronologia}!anio@{anio}}
+\index{anio@{anio}!Cronologia@{Cronologia}}
+\subsubsection{\texorpdfstring{anio()}{anio()}}
+{\footnotesize\ttfamily int Cronologia\+::anio (\begin{DoxyParamCaption}\item[{string}]{acontecimiento }\end{DoxyParamCaption})}
+
+
+
+anio 
+
+\begin{DoxyReturn}{Devuelve}
+Devuelve el aÃ±o de un acontecimiento dado 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classCronologia_a5ca66a485a589fc136466c6550514d51}\label{classCronologia_a5ca66a485a589fc136466c6550514d51}} 
+\index{Cronologia@{Cronologia}!get\+Crono@{get\+Crono}}
+\index{get\+Crono@{get\+Crono}!Cronologia@{Cronologia}}
+\subsubsection{\texorpdfstring{get\+Crono()}{getCrono()}}
+{\footnotesize\ttfamily Mapa\+FH Cronologia\+::get\+Crono (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+get\+Crono 
+
+\begin{DoxyReturn}{Devuelve}
+Devuelve un mapa de crono 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classCronologia_a45780b1afa95d9c0ca0c4cdd72180114}\label{classCronologia_a45780b1afa95d9c0ca0c4cdd72180114}} 
+\index{Cronologia@{Cronologia}!get\+Eventos@{get\+Eventos}}
+\index{get\+Eventos@{get\+Eventos}!Cronologia@{Cronologia}}
+\subsubsection{\texorpdfstring{get\+Eventos()}{getEventos()}}
+{\footnotesize\ttfamily \hyperlink{classFechaHistorica}{Fecha\+Historica} Cronologia\+::get\+Eventos (\begin{DoxyParamCaption}\item[{int}]{anio }\end{DoxyParamCaption})}
+
+
+
+Eventos del tipo \hyperlink{classFechaHistorica}{Fecha\+Historica}. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em anio} & anio de los acontecimientos solicitados \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Devuelve los acontecimientos dados en un aÃ±o 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classCronologia_acd418bfc323c6fbac776419bddac74e8}\label{classCronologia_acd418bfc323c6fbac776419bddac74e8}} 
+\index{Cronologia@{Cronologia}!intervalo@{intervalo}}
+\index{intervalo@{intervalo}!Cronologia@{Cronologia}}
+\subsubsection{\texorpdfstring{intervalo()}{intervalo()}}
+{\footnotesize\ttfamily \hyperlink{classCronologia}{Cronologia} Cronologia\+::intervalo (\begin{DoxyParamCaption}\item[{int}]{inicio,  }\item[{int}]{fin }\end{DoxyParamCaption})}
+
+
+
+obtencion de un conjunto de \hyperlink{classFechaHistorica}{Fecha\+Historica} dentro de un intervalo 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em inicio} & año de comienzo \\
+\hline
+{\em fin} & año final \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Devuelve una \hyperlink{classCronologia}{Cronologia} con los acontecimientos dados en un intervalo 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondición}
+debe especificarse tanto una fecha de inicio como de final 
+\end{DoxyPrecond}
+\mbox{\Hypertarget{classCronologia_a5113eae269dbf9bdbb3637142b02d267}\label{classCronologia_a5113eae269dbf9bdbb3637142b02d267}} 
+\index{Cronologia@{Cronologia}!operator+@{operator+}}
+\index{operator+@{operator+}!Cronologia@{Cronologia}}
+\subsubsection{\texorpdfstring{operator+()}{operator+()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \hyperlink{classCronologia}{Cronologia} Cronologia\+::operator+ (\begin{DoxyParamCaption}\item[{const Mapa\+FH \&}]{otro }\end{DoxyParamCaption})}
+
+
+
+Concatena un mapa. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em otro} & Mapa\+FH a concatenar con el objeto implicito \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classCronologia_ab17768986b01369038b5b3852ad21fef}\label{classCronologia_ab17768986b01369038b5b3852ad21fef}} 
+\index{Cronologia@{Cronologia}!operator+@{operator+}}
+\index{operator+@{operator+}!Cronologia@{Cronologia}}
+\subsubsection{\texorpdfstring{operator+()}{operator+()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \hyperlink{classCronologia}{Cronologia} Cronologia\+::operator+ (\begin{DoxyParamCaption}\item[{const \hyperlink{classFechaHistorica}{Fecha\+Historica} \&}]{otro }\end{DoxyParamCaption})}
+
+
+
+Concatena el objeto implicito con un objeto del tipo \hyperlink{classFechaHistorica}{Fecha\+Historica}. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em otro} & \hyperlink{classFechaHistorica}{Fecha\+Historica} a concatenar con el objeto implicito \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classCronologia_a7e6b4c1621dfba75b113819a6b32e2ef}\label{classCronologia_a7e6b4c1621dfba75b113819a6b32e2ef}} 
+\index{Cronologia@{Cronologia}!operator+=@{operator+=}}
+\index{operator+=@{operator+=}!Cronologia@{Cronologia}}
+\subsubsection{\texorpdfstring{operator+=()}{operator+=()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \hyperlink{classCronologia}{Cronologia}\& Cronologia\+::operator+= (\begin{DoxyParamCaption}\item[{const \hyperlink{classFechaHistorica}{Fecha\+Historica} \&}]{otro }\end{DoxyParamCaption})}
+
+
+
+Sobrecarga del operador +=. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em f} & \hyperlink{classFechaHistorica}{Fecha\+Historica} a concatenar con el objeto implicito \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classCronologia_a5eb738cdce8fd5b7239a384476ddef7f}\label{classCronologia_a5eb738cdce8fd5b7239a384476ddef7f}} 
+\index{Cronologia@{Cronologia}!operator+=@{operator+=}}
+\index{operator+=@{operator+=}!Cronologia@{Cronologia}}
+\subsubsection{\texorpdfstring{operator+=()}{operator+=()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \hyperlink{classCronologia}{Cronologia}\& Cronologia\+::operator+= (\begin{DoxyParamCaption}\item[{const \hyperlink{classCronologia}{Cronologia} \&}]{otro }\end{DoxyParamCaption})}
+
+
+
+Sobrecarga del operador +=. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em otro} & \hyperlink{classCronologia}{Cronologia} a concatenar con el objeto implicito \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classCronologia_a43b561e8e1e896372f797247058a4a0d}\label{classCronologia_a43b561e8e1e896372f797247058a4a0d}} 
+\index{Cronologia@{Cronologia}!Palabra\+Clave@{Palabra\+Clave}}
+\index{Palabra\+Clave@{Palabra\+Clave}!Cronologia@{Cronologia}}
+\subsubsection{\texorpdfstring{Palabra\+Clave()}{PalabraClave()}}
+{\footnotesize\ttfamily Mapa\+FH Cronologia\+::\+Palabra\+Clave (\begin{DoxyParamCaption}\item[{string}]{buscar }\end{DoxyParamCaption})}
+
+
+
+obtencion de un conjunto de \hyperlink{classFechaHistorica}{Fecha\+Historica} con apariciones de la palabra clave 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em buscar} & palabra clave a buscar \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Devuelve una \hyperlink{classCronologia}{Cronologia} con los acontecimientos donde haya apariciones de la palabra clave especificada 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classCronologia_ab543199019ac2916b86d510d429f5e4a}\label{classCronologia_ab543199019ac2916b86d510d429f5e4a}} 
+\index{Cronologia@{Cronologia}!set\+Crono@{set\+Crono}}
+\index{set\+Crono@{set\+Crono}!Cronologia@{Cronologia}}
+\subsubsection{\texorpdfstring{set\+Crono()}{setCrono()}}
+{\footnotesize\ttfamily void Cronologia\+::set\+Crono (\begin{DoxyParamCaption}\item[{const \hyperlink{classCronologia}{Cronologia}}]{c }\end{DoxyParamCaption})}
+
+
+
+inserta una cronologia 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em c} & cronologia a añadir \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Devuelve los acontecimientos dados en un año 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classCronologia_a5dd879f6d755f01f3af65334bcabec0c}\label{classCronologia_a5dd879f6d755f01f3af65334bcabec0c}} 
+\index{Cronologia@{Cronologia}!Union@{Union}}
+\index{Union@{Union}!Cronologia@{Cronologia}}
+\subsubsection{\texorpdfstring{Union()}{Union()}}
+{\footnotesize\ttfamily void Cronologia\+::\+Union (\begin{DoxyParamCaption}\item[{const \hyperlink{classCronologia}{Cronologia} \&}]{c1,  }\item[{const \hyperlink{classCronologia}{Cronologia} \&}]{c2 }\end{DoxyParamCaption})}
+
+
+
+obtencion de la union de dos Cronologias 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em inicio} & año de comienzo \\
+\hline
+{\em fin} & año final \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Devuelve una \hyperlink{classCronologia}{Cronologia} con los acontecimientos dados en un intervalo 
+\end{DoxyReturn}
+
+
+\subsection{Documentación de las funciones relacionadas y clases amigas}
+\mbox{\Hypertarget{classCronologia_a5a590e2ec95cc4489c3de5b03e2cac4c}\label{classCronologia_a5a590e2ec95cc4489c3de5b03e2cac4c}} 
+\index{Cronologia@{Cronologia}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!Cronologia@{Cronologia}}
+\subsubsection{\texorpdfstring{operator$<$$<$}{operator<<}}
+{\footnotesize\ttfamily ostream\& operator$<$$<$ (\begin{DoxyParamCaption}\item[{ostream \&}]{os,  }\item[{const \hyperlink{classCronologia}{Cronologia} \&}]{c }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Salida de una \hyperlink{classCronologia}{Cronologia} a ostream. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em os} & stream de salida \\
+\hline
+{\em c} & \hyperlink{classCronologia}{Cronologia} a escribir \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classCronologia_a6fa0f1131309b1cee355b9d8297ea33d}\label{classCronologia_a6fa0f1131309b1cee355b9d8297ea33d}} 
+\index{Cronologia@{Cronologia}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!Cronologia@{Cronologia}}
+\subsubsection{\texorpdfstring{operator$>$$>$}{operator>>}}
+{\footnotesize\ttfamily istream\& operator$>$$>$ (\begin{DoxyParamCaption}\item[{istream \&}]{is,  }\item[{\hyperlink{classCronologia}{Cronologia} \&}]{c }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Entrada de una \hyperlink{classFechaHistorica}{Fecha\+Historica} desde istream. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em is} & stream de entrada \\
+\hline
+{\em c} & \hyperlink{classCronologia}{Cronologia} que recibe el valor \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classCronologia_a8ada14624be65bded6fc9c445681d70e}\label{classCronologia_a8ada14624be65bded6fc9c445681d70e}} 
+\index{Cronologia@{Cronologia}!recuento\+Eventos@{recuento\+Eventos}}
+\index{recuento\+Eventos@{recuento\+Eventos}!Cronologia@{Cronologia}}
+\subsubsection{\texorpdfstring{recuento\+Eventos}{recuentoEventos}}
+{\footnotesize\ttfamily void recuento\+Eventos (\begin{DoxyParamCaption}\item[{const \hyperlink{classCronologia}{Cronologia} \&}]{c }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Recuento estadistico de una cronologia. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em c} & \hyperlink{classCronologia}{Cronologia} a estudiar \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPostcond}{Postcondición}
+Se imprime el estudio por pantalla 
+\end{DoxyPostcond}
+
+
+La documentación para esta clase fue generada a partir del siguiente fichero\+:\begin{DoxyCompactItemize}
+\item 
+include/\hyperlink{Cronologia_8h}{Cronologia.\+h}\end{DoxyCompactItemize}

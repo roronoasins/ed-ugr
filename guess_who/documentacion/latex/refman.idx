@@ -1,0 +1,115 @@
+\indexentry{bintree$<$ T $>$@{bintree$<$ T $>$}|hyperpage}{5}
+\indexentry{bintree@{bintree}!bintree@{bintree}|hyperpage}{7}
+\indexentry{bintree@{bintree}!bintree@{bintree}|hyperpage}{7}
+\indexentry{bintree@{bintree}!bintree@{bintree}|hyperpage}{7}
+\indexentry{bintree@{bintree}!bintree@{bintree}|hyperpage}{7}
+\indexentry{bintree@{bintree}!bintree@{bintree}|hyperpage}{7}
+\indexentry{bintree@{bintree}!bintree@{bintree}|hyperpage}{7}
+\indexentry{bintree@{bintree}!````~bintree@{$\sim$bintree}|hyperpage}{7}
+\indexentry{````~bintree@{$\sim$bintree}!bintree@{bintree}|hyperpage}{7}
+\indexentry{bintree@{bintree}!assign\+\_\+subtree@{assign\+\_\+subtree}|hyperpage}{7}
+\indexentry{assign\+\_\+subtree@{assign\+\_\+subtree}!bintree@{bintree}|hyperpage}{7}
+\indexentry{bintree@{bintree}!clear@{clear}|hyperpage}{7}
+\indexentry{clear@{clear}!bintree@{bintree}|hyperpage}{7}
+\indexentry{bintree@{bintree}!empty@{empty}|hyperpage}{8}
+\indexentry{empty@{empty}!bintree@{bintree}|hyperpage}{8}
+\indexentry{bintree@{bintree}!insert\+\_\+left@{insert\+\_\+left}|hyperpage}{8}
+\indexentry{insert\+\_\+left@{insert\+\_\+left}!bintree@{bintree}|hyperpage}{8}
+\indexentry{bintree@{bintree}!insert\+\_\+left@{insert\+\_\+left}|hyperpage}{8}
+\indexentry{insert\+\_\+left@{insert\+\_\+left}!bintree@{bintree}|hyperpage}{8}
+\indexentry{bintree@{bintree}!insert\+\_\+right@{insert\+\_\+right}|hyperpage}{8}
+\indexentry{insert\+\_\+right@{insert\+\_\+right}!bintree@{bintree}|hyperpage}{8}
+\indexentry{bintree@{bintree}!insert\+\_\+right@{insert\+\_\+right}|hyperpage}{8}
+\indexentry{insert\+\_\+right@{insert\+\_\+right}!bintree@{bintree}|hyperpage}{8}
+\indexentry{bintree@{bintree}!operator"!=@{operator"!=}|hyperpage}{9}
+\indexentry{operator"!=@{operator"!=}!bintree@{bintree}|hyperpage}{9}
+\indexentry{bintree@{bintree}!operator=@{operator=}|hyperpage}{9}
+\indexentry{operator=@{operator=}!bintree@{bintree}|hyperpage}{9}
+\indexentry{bintree@{bintree}!operator==@{operator==}|hyperpage}{9}
+\indexentry{operator==@{operator==}!bintree@{bintree}|hyperpage}{9}
+\indexentry{bintree@{bintree}!prune\+\_\+left@{prune\+\_\+left}|hyperpage}{9}
+\indexentry{prune\+\_\+left@{prune\+\_\+left}!bintree@{bintree}|hyperpage}{9}
+\indexentry{bintree@{bintree}!prune\+\_\+right@{prune\+\_\+right}|hyperpage}{9}
+\indexentry{prune\+\_\+right@{prune\+\_\+right}!bintree@{bintree}|hyperpage}{9}
+\indexentry{bintree@{bintree}!replace\+\_\+subtree@{replace\+\_\+subtree}|hyperpage}{10}
+\indexentry{replace\+\_\+subtree@{replace\+\_\+subtree}!bintree@{bintree}|hyperpage}{10}
+\indexentry{bintree@{bintree}!root@{root}|hyperpage}{10}
+\indexentry{root@{root}!bintree@{bintree}|hyperpage}{10}
+\indexentry{bintree@{bintree}!size@{size}|hyperpage}{10}
+\indexentry{size@{size}!bintree@{bintree}|hyperpage}{10}
+\indexentry{bintree$<$ T $>$\+::const\+\_\+inorder\+\_\+iterator@{bintree$<$ T $>$\+::const\+\_\+inorder\+\_\+iterator}|hyperpage}{10}
+\indexentry{bintree$<$ T $>$\+::const\+\_\+level\+\_\+iterator@{bintree$<$ T $>$\+::const\+\_\+level\+\_\+iterator}|hyperpage}{11}
+\indexentry{bintree$<$ T $>$\+::const\+\_\+postorder\+\_\+iterator@{bintree$<$ T $>$\+::const\+\_\+postorder\+\_\+iterator}|hyperpage}{11}
+\indexentry{bintree$<$ T $>$\+::const\+\_\+preorder\+\_\+iterator@{bintree$<$ T $>$\+::const\+\_\+preorder\+\_\+iterator}|hyperpage}{11}
+\indexentry{bintree$<$ T $>$\+::inorder\+\_\+iterator@{bintree$<$ T $>$\+::inorder\+\_\+iterator}|hyperpage}{12}
+\indexentry{bintree$<$ T $>$\+::level\+\_\+iterator@{bintree$<$ T $>$\+::level\+\_\+iterator}|hyperpage}{12}
+\indexentry{bintree$<$ T $>$\+::node@{bintree$<$ T $>$\+::node}|hyperpage}{13}
+\indexentry{bintree\+::node@{bintree\+::node}!node@{node}|hyperpage}{13}
+\indexentry{node@{node}!bintree\+::node@{bintree\+::node}|hyperpage}{13}
+\indexentry{bintree\+::node@{bintree\+::node}!node@{node}|hyperpage}{13}
+\indexentry{node@{node}!bintree\+::node@{bintree\+::node}|hyperpage}{13}
+\indexentry{bintree\+::node@{bintree\+::node}!left@{left}|hyperpage}{13}
+\indexentry{left@{left}!bintree\+::node@{bintree\+::node}|hyperpage}{13}
+\indexentry{bintree\+::node@{bintree\+::node}!operator"!=@{operator"!=}|hyperpage}{14}
+\indexentry{operator"!=@{operator"!=}!bintree\+::node@{bintree\+::node}|hyperpage}{14}
+\indexentry{bintree\+::node@{bintree\+::node}!operator$\ast$@{operator$\ast$}|hyperpage}{14}
+\indexentry{operator$\ast$@{operator$\ast$}!bintree\+::node@{bintree\+::node}|hyperpage}{14}
+\indexentry{bintree\+::node@{bintree\+::node}!operator$\ast$@{operator$\ast$}|hyperpage}{14}
+\indexentry{operator$\ast$@{operator$\ast$}!bintree\+::node@{bintree\+::node}|hyperpage}{14}
+\indexentry{bintree\+::node@{bintree\+::node}!operator=@{operator=}|hyperpage}{14}
+\indexentry{operator=@{operator=}!bintree\+::node@{bintree\+::node}|hyperpage}{14}
+\indexentry{bintree\+::node@{bintree\+::node}!operator==@{operator==}|hyperpage}{14}
+\indexentry{operator==@{operator==}!bintree\+::node@{bintree\+::node}|hyperpage}{14}
+\indexentry{bintree\+::node@{bintree\+::node}!parent@{parent}|hyperpage}{14}
+\indexentry{parent@{parent}!bintree\+::node@{bintree\+::node}|hyperpage}{14}
+\indexentry{bintree\+::node@{bintree\+::node}!remove@{remove}|hyperpage}{14}
+\indexentry{remove@{remove}!bintree\+::node@{bintree\+::node}|hyperpage}{14}
+\indexentry{bintree\+::node@{bintree\+::node}!right@{right}|hyperpage}{15}
+\indexentry{right@{right}!bintree\+::node@{bintree\+::node}|hyperpage}{15}
+\indexentry{bintree$<$ T $>$\+::postorder\+\_\+iterator@{bintree$<$ T $>$\+::postorder\+\_\+iterator}|hyperpage}{15}
+\indexentry{Pregunta@{Pregunta}|hyperpage}{15}
+\indexentry{Pregunta@{Pregunta}!Pregunta@{Pregunta}|hyperpage}{16}
+\indexentry{Pregunta@{Pregunta}!Pregunta@{Pregunta}|hyperpage}{16}
+\indexentry{Pregunta@{Pregunta}!Pregunta@{Pregunta}|hyperpage}{16}
+\indexentry{Pregunta@{Pregunta}!Pregunta@{Pregunta}|hyperpage}{16}
+\indexentry{Pregunta@{Pregunta}!Pregunta@{Pregunta}|hyperpage}{16}
+\indexentry{Pregunta@{Pregunta}!Pregunta@{Pregunta}|hyperpage}{16}
+\indexentry{Pregunta@{Pregunta}!````~Pregunta@{$\sim$\+Pregunta}|hyperpage}{17}
+\indexentry{````~Pregunta@{$\sim$\+Pregunta}!Pregunta@{Pregunta}|hyperpage}{17}
+\indexentry{Pregunta@{Pregunta}!obtener\+\_\+personaje@{obtener\+\_\+personaje}|hyperpage}{17}
+\indexentry{obtener\+\_\+personaje@{obtener\+\_\+personaje}!Pregunta@{Pregunta}|hyperpage}{17}
+\indexentry{Pregunta@{Pregunta}!obtener\+\_\+pregunta@{obtener\+\_\+pregunta}|hyperpage}{17}
+\indexentry{obtener\+\_\+pregunta@{obtener\+\_\+pregunta}!Pregunta@{Pregunta}|hyperpage}{17}
+\indexentry{Pregunta@{Pregunta}!operator=@{operator=}|hyperpage}{17}
+\indexentry{operator=@{operator=}!Pregunta@{Pregunta}|hyperpage}{17}
+\indexentry{Pregunta@{Pregunta}!operator$<$$<$@{operator$<$$<$}|hyperpage}{17}
+\indexentry{operator$<$$<$@{operator$<$$<$}!Pregunta@{Pregunta}|hyperpage}{17}
+\indexentry{bintree$<$ T $>$\+::preorder\+\_\+iterator@{bintree$<$ T $>$\+::preorder\+\_\+iterator}|hyperpage}{17}
+\indexentry{Quien\+Es\+Quien@{Quien\+Es\+Quien}|hyperpage}{18}
+\indexentry{Quien\+Es\+Quien@{Quien\+Es\+Quien}!Quien\+Es\+Quien@{Quien\+Es\+Quien}|hyperpage}{19}
+\indexentry{Quien\+Es\+Quien@{Quien\+Es\+Quien}!Quien\+Es\+Quien@{Quien\+Es\+Quien}|hyperpage}{19}
+\indexentry{Quien\+Es\+Quien@{Quien\+Es\+Quien}!aniade\+\_\+personaje@{aniade\+\_\+personaje}|hyperpage}{19}
+\indexentry{aniade\+\_\+personaje@{aniade\+\_\+personaje}!Quien\+Es\+Quien@{Quien\+Es\+Quien}|hyperpage}{19}
+\indexentry{Quien\+Es\+Quien@{Quien\+Es\+Quien}!elimina\+\_\+personaje@{elimina\+\_\+personaje}|hyperpage}{20}
+\indexentry{elimina\+\_\+personaje@{elimina\+\_\+personaje}!Quien\+Es\+Quien@{Quien\+Es\+Quien}|hyperpage}{20}
+\indexentry{Quien\+Es\+Quien@{Quien\+Es\+Quien}!eliminar\+\_\+nodos\+\_\+redundantes@{eliminar\+\_\+nodos\+\_\+redundantes}|hyperpage}{20}
+\indexentry{eliminar\+\_\+nodos\+\_\+redundantes@{eliminar\+\_\+nodos\+\_\+redundantes}!Quien\+Es\+Quien@{Quien\+Es\+Quien}|hyperpage}{20}
+\indexentry{Quien\+Es\+Quien@{Quien\+Es\+Quien}!informacion\+\_\+jugada@{informacion\+\_\+jugada}|hyperpage}{20}
+\indexentry{informacion\+\_\+jugada@{informacion\+\_\+jugada}!Quien\+Es\+Quien@{Quien\+Es\+Quien}|hyperpage}{20}
+\indexentry{Quien\+Es\+Quien@{Quien\+Es\+Quien}!iniciar\+\_\+juego@{iniciar\+\_\+juego}|hyperpage}{20}
+\indexentry{iniciar\+\_\+juego@{iniciar\+\_\+juego}!Quien\+Es\+Quien@{Quien\+Es\+Quien}|hyperpage}{20}
+\indexentry{Quien\+Es\+Quien@{Quien\+Es\+Quien}!operator=@{operator=}|hyperpage}{20}
+\indexentry{operator=@{operator=}!Quien\+Es\+Quien@{Quien\+Es\+Quien}|hyperpage}{20}
+\indexentry{Quien\+Es\+Quien@{Quien\+Es\+Quien}!preguntas\+\_\+formuladas@{preguntas\+\_\+formuladas}|hyperpage}{21}
+\indexentry{preguntas\+\_\+formuladas@{preguntas\+\_\+formuladas}!Quien\+Es\+Quien@{Quien\+Es\+Quien}|hyperpage}{21}
+\indexentry{Quien\+Es\+Quien@{Quien\+Es\+Quien}!profundidad\+\_\+promedio\+\_\+hojas@{profundidad\+\_\+promedio\+\_\+hojas}|hyperpage}{21}
+\indexentry{profundidad\+\_\+promedio\+\_\+hojas@{profundidad\+\_\+promedio\+\_\+hojas}!Quien\+Es\+Quien@{Quien\+Es\+Quien}|hyperpage}{21}
+\indexentry{Quien\+Es\+Quien@{Quien\+Es\+Quien}!tablero\+\_\+aleatorio@{tablero\+\_\+aleatorio}|hyperpage}{21}
+\indexentry{tablero\+\_\+aleatorio@{tablero\+\_\+aleatorio}!Quien\+Es\+Quien@{Quien\+Es\+Quien}|hyperpage}{21}
+\indexentry{Quien\+Es\+Quien@{Quien\+Es\+Quien}!usar\+\_\+arbol@{usar\+\_\+arbol}|hyperpage}{21}
+\indexentry{usar\+\_\+arbol@{usar\+\_\+arbol}!Quien\+Es\+Quien@{Quien\+Es\+Quien}|hyperpage}{21}
+\indexentry{Quien\+Es\+Quien@{Quien\+Es\+Quien}!operator$<$$<$@{operator$<$$<$}|hyperpage}{22}
+\indexentry{operator$<$$<$@{operator$<$$<$}!Quien\+Es\+Quien@{Quien\+Es\+Quien}|hyperpage}{22}
+\indexentry{Quien\+Es\+Quien@{Quien\+Es\+Quien}!operator$>$$>$@{operator$>$$>$}|hyperpage}{22}
+\indexentry{operator$>$$>$@{operator$>$$>$}!Quien\+Es\+Quien@{Quien\+Es\+Quien}|hyperpage}{22}
+\indexentry{include/quienesquien.\+h@{include/quienesquien.\+h}|hyperpage}{23}

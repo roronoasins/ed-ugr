@@ -1,0 +1,5 @@
+\hypertarget{repConjunto_invConjunto}{}\section{Invariante de la representación}\label{repConjunto_invConjunto}
+El invariante es {\itshape }(vd,n\+\_\+ele,v\+\_\+nulo) \+: 0 $<$= vd.\+size() $<$ n\+\_\+ele; //\+Fallo tipo 1 vd\mbox{[}i\mbox{]}.second != v\+\_\+nulo, para todo i = 0, ..., vd.\+size()-\/1; // Fallo tipo 2 vd\mbox{[}i\mbox{]}.first $>$=0, para todo i = 0, ..., vd.\+size()-\/1; // Fallo tipo 3 vd\mbox{[}i\mbox{]}.first $<$ vd\mbox{[}j\mbox{]}.first si i$<$j // Fallo tipo 4\hypertarget{repConjunto_faConjunto}{}\section{Función de abstracción}\label{repConjunto_faConjunto}
+Un objeto válido {\itshape rep} del T\+DA Fecha\+Historica representa a
+
+F\+A(rep)\+: rep -\/-\/ $>$ vector (vd=\mbox{[} (a,v1), (b,v2), ..., (n,vn) \mbox{]} n\+\_\+ele = M -\/-\/-\/-\/-\/---$>$ pos\+: 0 1 2 ... a-\/1 a ... x .... b.... ... n-\/1 n n+1 ..... M-\/1 val\+: t t t ....t v1 ... t .... v2 .. ... t vn t ...... t v\+\_\+nulo = t 

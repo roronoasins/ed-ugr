@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Cronologia_stl: Fichero Fuente include/Cronologia.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Cronologia_stl
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">Cronologia.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="Cronologia_8h.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#ifndef __CRONOLOGIA</span></div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#define __CRONOLOGIA</span></div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &lt;map&gt;</span></div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="FechaHistorica_8h.html">FechaHistorica.h</a>&quot;</span></div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="keyword">using namespace </span><a class="code" href="namespacestd.html">std</a>;</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keyword">typedef</span> map&lt;int, FechaHistorica &gt; MapaFH;</div><div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="classCronologia.html">   35</a></span>&#160;  <span class="keyword">class </span><a class="code" href="classCronologia.html">Cronologia</a> {</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;   <span class="keyword">private</span>:</div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    MapaFH crono; </div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;   <span class="keyword">public</span>:</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        <span class="keyword">typedef</span> <span class="keyword">typename</span> map &lt;int, FechaHistorica&gt;::iterator iterator;</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="keyword">typedef</span> <span class="keyword">typename</span> map &lt;int, FechaHistorica&gt;::const_iterator const_iterator;</div><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;</div><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;</div><div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <a class="code" href="classCronologia.html">Cronologia</a>();</div><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;</div><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <a class="code" href="classCronologia.html">Cronologia</a>(MapaFH crono);</div><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;</div><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <a class="code" href="classCronologia.html">Cronologia</a> (<span class="keyword">const</span> <a class="code" href="classCronologia.html">Cronologia</a>&amp; crono);</div><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;</div><div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    <span class="keywordtype">int</span> anio (<span class="keywordtype">string</span> acontecimiento);</div><div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;</div><div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    set&lt;string&gt; acontecimientos (<span class="keywordtype">int</span> anio);</div><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;</div><div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    <a class="code" href="classFechaHistorica.html">FechaHistorica</a> getEventos ( <span class="keywordtype">int</span> anio );</div><div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;</div><div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    <span class="keywordtype">void</span> setCrono (<span class="keyword">const</span> <a class="code" href="classCronologia.html">Cronologia</a> c);</div><div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;</div><div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    MapaFH getCrono() <span class="keyword">const</span>;</div><div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;</div><div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    <span class="keywordtype">string</span> acontecimientoconcreto (<span class="keywordtype">int</span> anio, <span class="keywordtype">int</span> contador);</div><div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;</div><div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    ~<a class="code" href="classCronologia.html">Cronologia</a> ();</div><div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;</div><div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;    <span class="keywordtype">void</span> AniadeFecha (<span class="keyword">const</span> <a class="code" href="classFechaHistorica.html">FechaHistorica</a> &amp; f);</div><div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;</div><div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;    <a class="code" href="classCronologia.html">Cronologia</a> &amp; operator= (<span class="keyword">const</span> <a class="code" href="classCronologia.html">Cronologia</a> &amp; otro);</div><div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;</div><div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;    <a class="code" href="classCronologia.html">Cronologia</a> operator + (<span class="keyword">const</span> MapaFH &amp; otro);</div><div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;</div><div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;    <a class="code" href="classCronologia.html">Cronologia</a> operator + (<span class="keyword">const</span> <a class="code" href="classFechaHistorica.html">FechaHistorica</a> &amp; otro);</div><div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;</div><div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;    <a class="code" href="classCronologia.html">Cronologia</a> &amp; operator += (<span class="keyword">const</span> <a class="code" href="classFechaHistorica.html">FechaHistorica</a> &amp; otro);</div><div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;</div><div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;    <a class="code" href="classCronologia.html">Cronologia</a> &amp; operator += (<span class="keyword">const</span> <a class="code" href="classCronologia.html">Cronologia</a> &amp; otro);</div><div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;</div><div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;    <span class="keyword">friend</span> ostream&amp; operator&lt;&lt; (ostream&amp; os, <span class="keyword">const</span> <a class="code" href="classCronologia.html">Cronologia</a> &amp;c);</div><div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;</div><div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;    <span class="keyword">friend</span> istream&amp; operator&gt;&gt; (istream&amp; is, <a class="code" href="classCronologia.html">Cronologia</a> &amp;c);</div><div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;</div><div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;    <span class="keyword">friend</span> <span class="keywordtype">void</span> recuentoEventos(<span class="keyword">const</span> <a class="code" href="classCronologia.html">Cronologia</a> &amp; c);</div><div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;</div><div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;    <a class="code" href="classCronologia.html">Cronologia</a> intervalo (<span class="keywordtype">int</span> inicio, <span class="keywordtype">int</span> fin);</div><div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;</div><div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;    <span class="keywordtype">void</span> Union(<span class="keyword">const</span> <a class="code" href="classCronologia.html">Cronologia</a> &amp; c1, <span class="keyword">const</span> <a class="code" href="classCronologia.html">Cronologia</a> &amp; c2);</div><div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;</div><div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;    MapaFH PalabraClave (<span class="keywordtype">string</span> buscar);</div><div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;</div><div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;    Cronologia::iterator begin ();</div><div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;</div><div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;    Cronologia::iterator end ();</div><div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;</div><div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;    Cronologia::const_iterator cbegin () <span class="keyword">const</span>;</div><div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;</div><div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;    Cronologia::const_iterator cend () <span class="keyword">const</span>;</div><div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;</div><div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;};</div><div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;<span class="preprocessor">#endif</span></div><div class="ttc" id="namespacestd_html"><div class="ttname"><a href="namespacestd.html">std</a></div></div>
+<div class="ttc" id="classCronologia_html"><div class="ttname"><a href="classCronologia.html">Cronologia</a></div><div class="ttdoc">T.D.A. Cronologia. </div><div class="ttdef"><b>Definition:</b> Cronologia.h:35</div></div>
+<div class="ttc" id="FechaHistorica_8h_html"><div class="ttname"><a href="FechaHistorica_8h.html">FechaHistorica.h</a></div><div class="ttdoc">Fichero cabecera del TDA FechaHistorica. </div></div>
+<div class="ttc" id="classFechaHistorica_html"><div class="ttname"><a href="classFechaHistorica.html">FechaHistorica</a></div><div class="ttdoc">T.D.A. FechaHistorica. </div><div class="ttdef"><b>Definition:</b> FechaHistorica.h:36</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.13
+</small></address>
+</body>
+</html>

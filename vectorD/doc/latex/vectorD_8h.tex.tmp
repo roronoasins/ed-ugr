@@ -1,0 +1,26 @@
+\hypertarget{vectorD_8h}{}\section{Referencia del Archivo include/vectorD.h}
+\label{vectorD_8h}\index{include/vector\+D.\+h@{include/vector\+D.\+h}}
+
+
+Fichero cabecera del T\+DA \hyperlink{classvectorD}{vectorD}.  
+
+
+{\ttfamily \#include $<$list$>$}\newline
+{\ttfamily \#include $<$utility$>$}\newline
+{\ttfamily \#include \char`\"{}vector\+D.\+hxx\char`\"{}}\newline
+Dependencia gráfica adjunta para vector\+D.\+h\+:
+% FIG 0
+\subsection*{Clases}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classvectorD}{vector\+D$<$ T $>$}
+\begin{DoxyCompactList}\small\item\em T.\+D.\+A. \hyperlink{classvectorD}{vectorD}. \end{DoxyCompactList}\item 
+class \hyperlink{classvectorD_1_1stored__iterator}{vector\+D$<$ T $>$\+::stored\+\_\+iterator}
+\item 
+class \hyperlink{classvectorD_1_1iterator}{vector\+D$<$ T $>$\+::iterator}
+\end{DoxyCompactItemize}
+
+
+\subsection{Descripción detallada}
+Fichero cabecera del T\+DA \hyperlink{classvectorD}{vectorD}. 
+
