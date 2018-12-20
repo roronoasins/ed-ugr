@@ -17,7 +17,7 @@ Practicas realizadas en la asignatura Estructura de Datos - Dpto. de Ciencias de
 ### [Vector Disperso](https://github.com/roronoasins/ed-ugr/tree/master/vectorD)
 
 
-## Autor
+## Autores
 * **Luis González** - [roronoasins](https://github.com/roronoasins)
 * **Pablo Pérez Méndez** - [Megatorpon](https://github.com/Megatorpon)
 
