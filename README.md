@@ -10,11 +10,16 @@ Practicas realizadas en la asignatura Estructura de Datos - Dpto. de Ciencias de
 
 ## Practicas realizadas:
 
+### [Cronologia con STL](https://github.com/roronoasins/ed-ugr/tree/master/cronologia_stl)
+
+### [Guess Who?](https://github.com/roronoasins/ed-ugr/tree/master/guess_who)
+
+### [Vector Disperso](https://github.com/roronoasins/ed-ugr/tree/master/vectorD)
 
 
 ## Autor
 * **Luis González** - [roronoasins](https://github.com/roronoasins)
-
+* **Pablo Pérez Méndez** - [Megatorpon](https://github.com/Megatorpon)
 
 ## License
 Este projecto está licenciado bajo GNU General Public License v3.0 - ver el fichero [LICENSE.md](LICENSE.md) para más detalles
