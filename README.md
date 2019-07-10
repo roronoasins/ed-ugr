@@ -1,7 +1,7 @@
 # Estructura de Datos UGR
 > Escuela Técnica Superior de Ingeniería Informática y Telecomunicaciones, Universidad de Granada
 
-Prácticas realizadas en la asignatura Estructura de Datos - Dpto. de Ciencias de la Computación e I.A. - en la Universidad de Granada, curso 2016-2017
+Prácticas realizadas en la asignatura Estructura de Datos - Dpto. de Ciencias de la Computación e I.A. - en la Universidad de Granada, curso 2017-2018
 
 ## Herramientas utilizadas
 
